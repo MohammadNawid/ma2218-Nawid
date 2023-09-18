@@ -1,3 +1,3 @@
 # F28WP-lab1
 
-This is a read me file
+I have altered the text within the website.
