@@ -19,19 +19,16 @@ confirmPassword.addEventListener("blur", validateConfirmPassword);
 
 //This adds an event listener that performs an overall validation of the data entered.
 form.addEventListener("submit", function (event) {
-  if (
-    !validateUsername() ||
-    !validateEmail() ||
-    !validatePassword() ||
-    !validateConfirmPassword()
-  ) {
-    event.preventDefault();
-    formBorder.style.borderColor = "red"; // Set border color to red on error
-  } else {
-    formBorder.style.borderColor = "green"; // Set border color to green on success
-  }
-});
-
+    if (
+      !validateUsername() ||
+      !validateEmail() ||
+      !validatePassword() ||
+      !validateConfirmPassword()
+    ) {
+      event.preventDefault();
+    }
+  });
+  
 //Function for validating username field.
 function validateUsername() {
   const usernameValue = username.value.trim();
