@@ -1,0 +1,5 @@
+Report
+
+I was given the task to create a slideshow and a registration form for my website. In the beginning I had no knowledge of how to create a slideshow but I had basic knowledge and experience in HTML and javascript. My approach to creating the slideshow was to first listen to the professor during the lab to get an idea on how to start piecing things together.
+
+When i first began creating my slideshow I cam across alot of difficulties. These difficulities included problems with nesting div elements and also difficulty with the slide numbers. Nesting div elements were at first confusing to me, I had managed to incorrectly nest the div elements which led to my images not loading correctly onto my webpage. This caused alot of issues until I asked one of the lab helpers for any tips and they graciously decided to help me understand div elements. Another problem I had faced was fixing the slide number counter as I didn't know how to reset the counter after it had reached the last slide. After alot of trial and error I figured out that I had to use an if statement to reset the counter after I reached the last slide.
